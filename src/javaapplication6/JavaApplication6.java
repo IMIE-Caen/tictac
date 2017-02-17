@@ -37,6 +37,7 @@ public class JavaApplication6 {
             }
             
         };
+        System.out.println("COUCOU");
         Thread tac = new MonThreadTicTac();
         Thread toc = new Thread(new TicTacRunnable());
         tic.start();
